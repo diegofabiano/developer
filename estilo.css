@@ -1183,6 +1183,11 @@ to {
   }
 }
 @media only screen and (max-width: 420px) {
+    body {
+    overflow-x: scroll;
+    overflow-x: hidden;
+    
+    }
 
     .nombre h1 {
       font-family: 'Monoton', cursive;
@@ -1455,6 +1460,11 @@ to {
     }
 
     @media only screen and (max-width: 370px) {
+      body {
+        overflow-x: scroll;
+        overflow-x: hidden;
+        
+      }
 
       .nombre h1 {
         font-family: 'Monoton', cursive;
